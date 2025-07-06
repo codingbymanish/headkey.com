@@ -1,0 +1,484 @@
+.first {
+    border-top: 3px solid rgb(3, 84, 119);
+    border-bottom: 1px solid rgb(209, 205, 205);
+}
+
+
+/* number */
+.b {
+    text-decoration: none;
+    color: #337ab7;
+    font-weight: 600;
+}
+
+.b:hover {
+    text-decoration: 1px solid underline;
+    color: rgb(3, 84, 119);
+}
+
+
+
+/* image */
+.image {
+    position: absolute;
+    top: -5px;
+    right: auto;
+}
+
+@media screen and (max-width:850px) {
+    .image {
+        display: none;
+    }
+}
+
+
+
+
+
+/* forms */
+.forms {
+
+
+
+    background-color: rgb(157, 22, 28);
+    border-bottom: 4px solid rgb(255, 11, 23);
+    border-radius: 4px;
+}
+
+
+
+/* log */
+.log {
+    background-color: rgb(251, 124, 31);
+    border: 2px solid rgb(157, 22, 28);
+
+}
+
+.log:hover {
+    background-color: rgb(74, 4, 7);
+}
+
+.log:focus {
+    background-color: blue;
+    border: 2px solid white;
+}
+
+.follow {
+    font-weight: 500px;
+}
+
+
+.butt {
+    width: 40px;
+    height: 40px;
+
+}
+
+/* navbar */
+
+.navv {
+    border-bottom: 1px solid rgb(240, 240, 240);
+
+
+    background: linear-gradient(rgb(232, 232, 232) 10%, rgb(255, 255, 255) 100%);
+}
+
+@media screen and (max-width:1135px) {
+    .mar{
+     margin: 0%;
+    }
+}
+
+.drop {
+    width: 900px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .drop {
+        width: auto;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .drop {
+        width: 750px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .drop {
+        width: 900px;
+    }
+}
+
+
+
+.drop2{
+    width: 850px;
+    color: rgb(203,104,13);
+   
+   
+    
+}
+
+/* @media screen and (min-width:320px) {
+.drop2{
+    width:auto;
+}    
+} */
+
+
+@media screen and (min-width:992px) {
+    .drop2{
+        left: -120%;    }
+}
+
+
+
+@media screen and (min-width:1242px) {
+    .navvv{
+        margin-left: 120px;
+    }
+}
+
+@media screen and (min-width:1417px) {
+    .navvv{
+        margin-left: 275px;
+    }
+}
+
+
+
+
+.word {
+    font-size: 15px;
+
+
+}
+
+.bor {
+    border-right: dotted;
+
+}
+
+
+.tet {
+    color: rgb(203, 104, 13);
+}
+
+.borrr {
+    background: rgb(157, 22, 28);
+    background: linear-gradient(180deg, rgba(157, 22, 28, 1) 44%, rgba(201, 29, 36, 1) 81%);
+}
+
+
+
+
+
+.number{
+bottom: 55px;
+position: relative;
+margin-left: 70px;
+}
+
+
+
+.para {
+    font-family: Lato, Helvetica, sans-serif;
+
+}
+
+.card {
+    border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.3s;
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: all 0.8s;
+
+}
+
+.click {
+    border-radius: 5px;
+    border: none;
+    background: rgb(197, 195, 43);
+    background: linear-gradient(54deg, rgba(197, 195, 43, 1) 0%, rgba(255, 111, 0, 1) 73%);
+
+
+
+}
+
+
+.click:hover {
+    background: rgb(255, 111, 0);
+    background: linear-gradient(54deg, rgba(255, 111, 0, 1) 0%, rgba(197, 195, 43, 1) 100%);
+}
+
+.butto {
+
+    background-color: rgb(236, 141, 29);
+}
+
+.butto:hover {
+    background-color: rgb(236, 141, 29);
+
+}
+
+.button:hover {
+    background-color: none;
+}
+
+.our {
+    transition: all 0.8s;
+
+}
+
+.our:hover {
+    transform: translateY(-20px);
+    transition: all 0.8s;
+}
+
+.line {
+    letter-spacing: 1.5px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+
+.back {
+    background-color: rgb(126, 126, 126);
+}
+
+.visa {
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    top: 45%;
+    width: 70px;
+}
+
+.pay {
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    top: 40%;
+    width: 70px;
+    background-color: white;
+}
+
+
+
+@media screen and (max-width:1024px) {
+
+    .visa,
+    .pay {
+        display: none;
+    }
+}
+
+
+
+.footer {
+    background-color: rgb(255, 40, 40);
+}
+
+.footerfont {
+    font-size: 12px;
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+.links {
+    color: rgb(255, 40, 40);
+    font-size: 20px;
+}
+
+.sizes {
+    font-size: 14px;
+}
+
+.third:hover {
+    text-decoration: 1px solid underline;
+}
+
+.footer2 {
+    background-color: rgb(236, 236, 236);
+}
+
+
+.ser {
+    background-color: rgb(249, 249, 249);
+
+}
+
+.ready {
+    border: none;
+    transition: all 1s;
+
+}
+
+.ready:hover {
+    color: black;
+    background-color: rgb(243, 172, 22);
+    transition: all 1s;
+
+}
+
+.sizes1 {
+    font-size: 17px;
+    color: rgb(243, 172, 22);
+}
+
+
+
+
+
+
+
+
+
+.backpic {
+    background-image: url(./image/dashrightbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.calls {
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    margin-top: 13px;
+    animation-name: up;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    transition: 1s;
+
+}
+
+@keyframes up {
+
+    0% {
+        transform: scale(1);
+        transition: 0.1s;
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+.call {
+    top: 90%;
+    position: fixed;
+    background-color: rgb(211, 31, 38);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    left: 0.7%;
+    z-index: 99;
+}
+
+.whats {
+    width: 60px;
+    height: 60px;
+
+    animation-name: what;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+
+    animation-timing-function: ease-out;
+    transition: 1s;
+
+}
+
+@keyframes what {
+
+    0% {
+        transform: translatey(-1px);
+        transition: 0.9s;
+    }
+
+    50% {
+        transform: translatey(25px);
+    }
+
+
+}
+
+
+.what {
+    top: 75%;
+    position: fixed;
+    left: 0.7%;
+    z-index: 99;
+}
+
+
+
+
+#indus{
+    position: relative;
+}
+#indus:hover#subs{
+    display: block;
+}
+#subs{
+    position: absolute;
+    width: 900px;
+}
+
+.ind{
+    color: rgb(203,104,13);
+}
+
+@media screen and (max-width:600px) {
+    #subs{
+        width: 300px;
+    }
+}
+@media screen and (min-width:768px) {
+    #subs{
+        width: 500px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #subs{
+        left: -240%;
+        width: 823px;
+    }
+}
+
+
+
+
+#carbtn{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+
+#black:hover{
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+}
+
+#black2{
+    background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+
+}
+
